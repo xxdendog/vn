@@ -240,6 +240,13 @@ const workSliderThumbs = new Swiper('.work-slider-thumbs', {
 
 const workSlider = new Swiper('.work-slider', {
     spaceBetween: '2.4%',
+    speed: 450,
+    grabCursor: true,
+    lazyPreloadPrevNext: 1,
+    keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+    },
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
