@@ -1,0 +1,13 @@
+{
+  "name": "VN",
+  "version": "1.0.0",
+  "description": "Minsk, Belarus",
+  "scripts": {
+    "parcel": "npx parcel index.html --open chrome"
+  },
+  "keywords": [],
+  "author": "Oleg Suprunovich",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
