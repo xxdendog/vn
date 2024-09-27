@@ -243,6 +243,7 @@ const workSlider = new Swiper('.work-slider', {
     speed: 450,
     grabCursor: true,
     lazyPreloadPrevNext: 1,
+    zoom: true,
     keyboard: {
         enabled: true,
         onlyInViewport: true,
