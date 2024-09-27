@@ -169,6 +169,10 @@ input[type=checkbox]:checked::before {
   background-size: cover;
 }
 
+.gslide-media {
+  max-width: 80vw !important;
+}
+
 .preloader {
   z-index: 100;
   pointer-events: none;
@@ -849,6 +853,10 @@ input[type=checkbox]:checked::before {
   }
 }
 
+.menu-color-container {
+  z-index: 10;
+  position: relative;
+}
 @media (max-width: 767px) and (orientation: portrait) {
   .menu-color-container {
     position: absolute;
@@ -1281,6 +1289,9 @@ input[type=checkbox]:checked::before {
 }
 .features-grid .feature-dark {
   background: var(--Main-Dark);
+}
+.features-grid .feature-play .play-button {
+  top: 60%;
 }
 .features-grid .feature .title {
   position: relative;
@@ -1762,6 +1773,7 @@ input[type=checkbox]:checked::before {
 .projects-grid .project > a {
   border-radius: 5rem;
   height: 240rem;
+  width: 100%;
   overflow: hidden;
 }
 .projects-grid .project .title {

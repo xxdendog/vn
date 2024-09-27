@@ -153,6 +153,10 @@ input[type="checkbox"] {
     }
 }
 
+.gslide-media {
+    max-width: 80vw!important;
+}
+
 .preloader {
     z-index: 100;
     pointer-events: none;
@@ -811,6 +815,8 @@ input[type="checkbox"] {
 }
 
 .menu-color-container {
+    z-index: 10;
+    position: relative;
     @media (max-width: 767px) and (orientation: portrait) {
         position: absolute;
         z-index: 100;
@@ -1253,6 +1259,11 @@ input[type="checkbox"] {
             }
             &-dark {
                 background: var(--Main-Dark);
+            }
+            &-play {
+                .play-button {
+                    top: 60%;
+                }
             }
             .title {
                 position: relative;
@@ -1771,6 +1782,7 @@ input[type="checkbox"] {
             >a {
                 border-radius: 5rem;
                 height: 240rem;
+                width: 100%;
                 overflow: hidden;
             }
             .title {
