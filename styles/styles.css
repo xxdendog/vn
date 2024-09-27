@@ -1030,7 +1030,7 @@ input[type=checkbox]:checked::before {
 .aplications-slider .swiper-slide img {
   border-radius: 5rem;
   height: 640rem;
-  width: 110%;
+  width: 105%;
 }
 .aplications-slider .aplications-button {
   position: absolute;
