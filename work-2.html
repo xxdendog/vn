@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-
     <div class="smooth-scroll" data-scroll-container>
-        <section>
+        <section class="menu-color-container" data-scroll data-scroll-speed="0.01">
             <div class="container">
                 <header class="menu menu-color">
                     <a href="index.html" class="menu-logo">
@@ -19,11 +18,11 @@
                     </a>
                     <nav>
                         <ul class="menu-nav">
-                            <li><a href="index.html">Производство</a></li>
-                            <li><a href="index.html">Характеристики</a></li>
-                            <li><a href="index.html">О компании</a></li>
-                            <li><a href="index.html">Доставка и монтаж</a></li>
-                            <li><a href="index.html">Проекты</a></li>
+                            <li><a href="index.html#factory">Производство</a></li>
+                            <li><a href="index.html#characteristics">Характеристики</a></li>
+                            <li><a href="index.html#factory-vn">О компании</a></li>
+                            <li><a href="index.html#projects">Проекты</a></li>
+                            <li><a href="index.html#services">Доставка и монтаж</a></li>
                         </ul>
                     </nav>
                     <div class="menu-contacts">
@@ -40,20 +39,20 @@
                         </div>
                         <div class="popup-contacts">
                             <img class="icon-close js-close-popup-contacts" src="source/icons/icon_close.svg" alt="">
-                            <h5 class="title-m">Связаться:</h5>
+                            <p class="title-m">Контакты</p>
                             <ul class="list">
                                 <li><a class="link" href="tel:#+375(29)3479960">+375 (29) 347-99-60</a></li>
-                                <li><a class="link" href="tel:#+375(29)3479960">+375 (29) 347-99-60</a></li>
+                                <li><a class="link" href="tel:#+375(17)3479960">+375 (17) 347-99-60</a></li>
                                 <li><a class="link" href="mailto:info@vng.by">info@vng.by</a></li>
                             </ul>
-                            <ul class="socials">
-                                <a href="#" class="social">
+                            <div class="socials">
+                                <a href="https://www.instagram.com/vng.by/" class="social" target="_blank" aria-label="ссылка на instagram">
                                     <img class="social-icon" src="source/icons/icon_social_instagram.svg" alt="">
                                 </a>
-                                <a href="#" class="social">
+                                <a href="https://www.youtube.com/@vngroup2024" class="social" target="_blank" aria-label="ссылка на youtube">
                                     <img class="social-icon" src="source/icons/icon_social_youtube.svg" alt="">
                                 </a>
-                            </ul>
+                            </div>
                         </div>
                     </div>
                 </header>
@@ -66,22 +65,46 @@
                         <div class="work-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67003%2fbu_ro-1-rz.jpg" />
+                                    <img src="source/img/works/work-2/01.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67001%2fbu_ro-3-rz.jpg" />
+                                    <img src="source/img/works/work-2/02.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67000%2fbu_ro-4_2-rz.jpg" />
+                                    <img src="source/img/works/work-2/03.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67002%2fbu_ro-2-rz.jpg" />
+                                    <img src="source/img/works/work-2/04.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-66998%2fbu_ro-5-rz.jpg" />
+                                    <img src="source/img/works/work-2/05.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-66999%2fmoby-skizze.jpg" />
+                                    <img src="source/img/works/work-2/06.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/07.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/08.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/09.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/10.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/11.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/12.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/13.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/14.jpg" loading="lazy"/>
                                 </div>
                             </div>
                             <div class="swiper-button-next"></div>
@@ -90,22 +113,46 @@
                         <div class="work-slider-thumbs swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67003%2fbu_ro-1-rz.jpg" />
+                                    <img src="source/img/works/work-2/01.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67001%2fbu_ro-3-rz.jpg" />
+                                    <img src="source/img/works/work-2/02.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67000%2fbu_ro-4_2-rz.jpg" />
+                                    <img src="source/img/works/work-2/03.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-67002%2fbu_ro-2-rz.jpg" />
+                                    <img src="source/img/works/work-2/04.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-66998%2fbu_ro-5-rz.jpg" />
+                                    <img src="source/img/works/work-2/05.jpg" loading="lazy"/>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="https://www.kontejneks-rus.ru/-/m/resize?width=1920&height=1080&fit=scale-down&image=https%3a%2f%2fwww.kontejneks-rus.ru%2f-%2fm%2fcontainex%2freferences%2fimages%2f24%2f39%2fctx-66999%2fmoby-skizze.jpg" />
+                                    <img src="source/img/works/work-2/06.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/07.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/08.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/09.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/10.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/11.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/12.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/13.jpg" loading="lazy"/>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="source/img/works/work-2/14.jpg" loading="lazy"/>
                                 </div>
                             </div>
                         </div>
@@ -113,16 +160,18 @@
                     <div class="grid-column">
                         <article class="work-information">
                             <div class="title">
-                                <h3 class="headline-s">Модульный офис в Минске</h3>
-                                <p>Двухэтажное здание в Минске площадью 118 м². Модульное здание выполнено их 10-футовых и 20-футовых контейнеров и оснащено панорамными окнами.</p>
+                                <h3 class="headline-s">Гостиница для проживания персонала</h3>
+                                <p>Гостиница для круглогодичного проживания персонала на территории предприятия вместимостью от 16-ти до 32-х человек. Включает в себя комфортные комнаты, помещение кухни, прачечной и раздельные сан. узлы с душевыми. Комплектация «под ключ» с мебелью.</p>
                             </div>
                             <div class="modal-column-list">
-                                <h4 class="title-s">Информация:</h4>
+                                <h4 class="title-s">Характеристики:</h4>
                                 <ul class="list">
-                                    <li><b>Местоположение:</b> Минск, Беларусь</li>
-                                    <li><b>Полезная площадь:</b> 12,4 м²</li>
-                                    <li><b>Кол-во контейнеров:</b> 8</li>
-                                    <li><b>Кол-во человек:</b> 16</li>
+                                    <li><b>Назначение: </b>Гостиница для проживания персонала предприятия</li>
+                                    <li><b>Место установки: </b>РБ, Минская область, Марьина горка</li>
+                                    <li><b>Срок реализации: </b>8 недель</li>
+                                    <li><b>Кол-во контейнеров: </b>14 шт</li>
+                                    <li><b>Площадь: </b>210 м2</li>
+                                    <li><b>Год реализации: </b>2021</li>
                                 </ul>
                             </div>
                             <a href="#" class="button js-open-modal-callback">
@@ -139,43 +188,44 @@
         <footer class="footer">
             <div class="container grid">
                 <div class="footer-title">
-                    <h5 class="display-m">VN Group</h5>
+                    <p class="display-m">VN Group</p>
                     <p class="body-l">220019 Беларусь, Минск <br>улица Шаранговича 67, офис 404</p>
                 </div>
                 <div class="footer-column">
-                    <h5 class="title-m">Навигация</h5>
+                    <p class="title-m">Навигация:</p>
                     <nav>
                         <ul class="list">
-                            <li><a class="link" href="#">Производство</a></li>
-                            <li><a class="link" href="#">Характеристики</a></li>
-                            <li><a class="link" href="#">О компании</a></li>
-                            <li><a class="link" href="#">Доставка и монтаж</a></li>
-                            <li><a class="link" href="#">Проекты</a></li>
+                            <li><a href="#factory" class="link" data-scroll-to data-scroll-to-href>Производство</a></li>
+                            <li><a href="#characteristics" class="link" data-scroll-to data-scroll-to-href>Характеристики</a></li>
+                            <li><a href="#factory-vn" class="link" data-scroll-to data-scroll-to-href>О компании</a></li>
+                            <li><a href="#projects" class="link" data-scroll-to data-scroll-to-href>Проекты</a></li>
+                            <li><a href="#services" class="link" data-scroll-to data-scroll-to-href>Доставка и монтаж</a></li>
                         </ul>
                     </nav>
+                    
                 </div>
                 <div class="footer-column">
-                    <h5 class="title-m">Связаться:</h5>
+                    <p class="title-m">Связаться:</p>
                     <ul class="list">
                         <li><a class="link" href="tel:#+375(29)3479960">+375 (29) 347-99-60</a></li>
                         <li><a class="link" href="tel:#+375(29)3479960">+375 (29) 347-99-60</a></li>
                         <li><a class="link" href="mailto:info@vng.by">info@vng.by</a></li>
                     </ul>
-                    <ul class="socials">
-                        <a href="#" class="social">
+                    <div class="socials">
+                        <a href="#" class="social" aria-label="instagram">
                             <img class="social-icon" src="source/icons/icon_social_instagram.svg" alt="">
                         </a>
-                        <a href="#" class="social">
+                        <a href="#" class="social" aria-label="youtube">
                             <img class="social-icon" src="source/icons/icon_social_youtube.svg" alt="">
                         </a>
-                    </ul>
+                    </div>
                 </div>
                 <div class="footer-bottom">
                     <p class="body-m">ООО «ВИЭН групп» УНП: 192014089</p>
                     <p class="body-s">Юр. адрес: г. Минск, ул. Тимирязева, д.97, каб. 22-27</p>
                 </div>
             </div>
-        </footer>
+        </footer>  
     </div>
 
     <div id="modal-callback" class="modal">
@@ -184,26 +234,38 @@
                 <img class="modal-close js-close-modal-callback" src="source/icons/icon_close.svg" alt="">
                 <form action='#' method='post'>
                     <div class="input-group">
-                        <label for="name">Имя</label>
-                        <input id="name" placeholder="Ваше имя" type="text" name="name" required>
+                        <label for="m-name">Имя</label>
+                        <input id="m-name" placeholder="Ваше имя" type="text" name="name" required>
                     </div>
                     <div class="input-group">
-                        <label for="phone">Телефон</label>
-                        <input id="phone" placeholder="+375 XX YYY-YY-YY" type="tel" name="phone" required>
+                        <label for="m-phone">Телефон</label>
+                        <input id="m-phone" placeholder="+375 XX YYY-YY-YY" type="tel" name="phone" required>
                     </div>
                     <div class="input-group">
-                        <label for="email">E-Mail</label>
-                        <input id="email" placeholder="Example@mail.com" type="email" name="email" required>    
+                        <label for="m-email">E-Mail</label>
+                        <input id="m-email" placeholder="Example@mail.com" type="email" name="email" required>    
+                    </div>
+                    <div class="input-group">
+                        <label for="m-message">Ваше сообщение</label>
+                        <textarea id="m-message" placeholder="Ваше сообщение" name="message"></textarea>
                     </div>
                     <div class="checkbox-group">
-                        <input id="agreement" type="checkbox" name="agreement" required>
-                        <label for="agreement">Согласен(а) с <a href="#">политикой обработки персональных данных</a></label>
+                        <input id="m-agreement" type="checkbox" name="agreement" checked required>
+                        <label for="m-agreement">Согласен(а) с <a href="#">политикой обработки персональных данных</a></label>
                     </div>
                     <button class="button button-outline" type="submit">Отправить</button>
                 </form>
             </div>
         </div>
     </div>
-    <script src="app/main.js" type="module"></script>
+    <script src="app/lozad/lozad.min.js"></script>
+    <script src="app/locomotive-scroll/locomotive-scroll.min.js"></script>
+    <script src="app/swiper/swiper-bundle.min.js"></script>
+    <script src="app/glightbox/glightbox.min.js"></script>
+    <script src="app/gsap/gsap.min.js"></script>
+    <script src="app/gsap/gsap.splittext.min.js"></script>
+    <script src="app/gsap/gsap.scrolltrigger.min.js"></script>
+    <script src="app/main.js"></script>
+    <script src="app/animations.js"></script>
 </body>
 </html>
